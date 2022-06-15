@@ -16,6 +16,7 @@
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Judul</th>
+                        <th scope="col">kategori</th>
                         <th scope="col">Pengarang</th>
                         <th scope="col">Penerbit</th>
                         <th scope="col">Tahun Terbit</th>
@@ -35,6 +36,7 @@
                     <tr>
                         <th scope="row"><?= $a++; ?></th>
                         <td><?= $b['judul_buku']; ?></td>
+                        <td><?= $b['id_kategori']; ?></td>
                         <td><?= $b['pengarang']; ?></td>
                         <td><?= $b['penerbit']; ?></td>
                         <td><?= $b['tahun_terbit']; ?></td>
